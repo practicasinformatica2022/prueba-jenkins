@@ -6,7 +6,7 @@ pipeline {
                 echo 'Comprando harina y huevos...'
             }
         }
-        stage('Hornear') {
+        stage('Hornear a 200 grados') {
             steps {
                 echo 'Metemos el pastel al horno...'
                 sleep 3  // Le decimos a Jenkins que espere 3 segundos
